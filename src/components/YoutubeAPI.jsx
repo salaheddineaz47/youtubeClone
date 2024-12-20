@@ -11,7 +11,7 @@ const fetchVideos = async (query) => {
         q: query,
         key: API_KEY,
         type: "video",
-        maxResults: 5,
+        maxResults: 12,
       },
     });
     console.log(response);
